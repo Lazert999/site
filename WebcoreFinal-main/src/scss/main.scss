@@ -1,0 +1,46 @@
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-width: 320px;
+    background-color:#F8F8F8;
+}
+body{
+    height: 100%;
+    // max-width: none;
+    font-size: 20px;
+    font-family: TT Lakes;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    // overflow-x: hidden;
+}
+
+[class*="__container"]{
+    box-sizing: content-box;
+    margin: 0 auto;
+    max-width: 1055px;
+    /* padding: 0px 16px 0px 16px;   для декстопа   */ 
+    border-bottom: 1px solid #D9FFF5;
+}
+main{
+    flex: 1 1 auto;
+}
+// burger opened options
+
+.lock-content{
+    overflow: hidden !important;
+}
+
+main,footer{
+    background: #F8F8F8;;
+}
+
+@media(min-width:1439px){
+    main{
+        padding-left: 36px;
+        margin-left: 320px;
+    }
+}
